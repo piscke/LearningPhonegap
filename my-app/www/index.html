@@ -18,19 +18,26 @@
     under the License.
 -->
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-	<h1>Hello World - Teste
-	</h1>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
-</html>
+     <head>
+         <meta charset="utf-8" />
+         <meta name="format-detection" content="telephone=no" />
+         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+         <link rel="stylesheet" type="text/css" href="css/index.css" />
+         <link href="css/nf.css" type="text/css" rel="stylesheet">
+         <title>Hello World - Netforce</title>
+     </head>
+     <body>
+     <h1>Estados</h1>
+     <div data-url="http://studio.netforcews.com/api/teste/tabelas/estados">
+     </div>
+     <h1>Novo Estado</h1>
+     <div data-url="http://studio.netforcews.com/api/teste/tabelas/estados/new">
+     </div>
+         <script type="text/javascript" src="phonegap.js"></script>
+         <script type="text/javascript" src="js/index.js"></script>
+     <script language="javascript" src="js/nf.js"></script>
+         <script type="text/javascript">
+             app.initialize();
+         </script>
+     </body>
+ </html>
